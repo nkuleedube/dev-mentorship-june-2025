@@ -1,0 +1,179 @@
+:root {
+    --primary-color: #0066cc;
+    --secondary-color: #f0ad4e;
+    --text-color: #333333;
+    --base-font-family: 'Helvetica Neue', Arial, sans-serif;
+    --base-font-size: 16px;
+    --spacing-unit: 8px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;  
+    font-size: 16px;
+    color: black; 
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header {
+    background-color: white;
+}
+
+header nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav h4 {
+    text-transform: uppercase;
+    color: red;
+}
+
+header nav ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight:500;
+    color: navy;
+}
+
+header nav ul a:hover {
+    color: red;
+}
+
+.hero {
+    background-color: navy;
+    height: 80vh;
+}
+
+.hero .container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .container p {
+    color: white;
+}
+
+/** About **/
+.about_me {
+    background-color: grey;
+}
+
+.about_me .container{
+    display: flex;
+}
+
+.about_me .container div {
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+/** Button **/
+.btn-main-button {
+    background-color: white;
+    padding: 12px 23px;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: navy;
+}
+
+.btn-main-button:hover {
+    background-color: yellow; 
+}
+
+section {
+    padding: 80px 0;
+}
+
+.brands .container {
+    text-align: center;
+}
+
+.brands .container ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.testimony {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+.testimony blockquote {
+    color: pink;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.blog .container {
+    text-align: center;
+    /* background-color:#f0ad4e; */
+}
+
+.blog .container div {
+    /* background-color: aqua; */
+}
+
+.blog .container .blog-list {
+    display: flex;
+    /* background-color: red; */
+    gap: 20px;
+    text-align: left;
+}
